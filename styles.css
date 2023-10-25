@@ -169,12 +169,12 @@ img {
 
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  grid-gap: 4rem;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 3rem;
   width: 100%;
-  max-width: 1280px;
+  max-width: 1200px;
   margin: 0 auto;
-  margin-bottom: 6rem;
+  margin-bottom: 3rem;
 }
 
 @media (max-width: 30.625em) {
@@ -195,14 +195,36 @@ img {
 
 
 .project-image {
-  height: calc(100% - 6.8rem);
+  height: calc(100% - 10.2rem);
+  padding: 5px;
   width: 100%;
   object-fit: cover;
+  border: 3px solid #808080;
+  border-radius: 15px;
 }
 
 .project-title {
   font-size: 2rem;
   padding: 2rem 0.5rem;
+  font-weight: bold;
+  color: black
+}
+
+.project-title:hover {
+ 
+  border-radius: 3px;
+  
+  border-radius: 55px;
+  border: 3px
+  WIDTh: 50%;
+  background-color: white;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  font-size: 2rem;
+  background: var(--main-red);
+  color: white;
+  margin: 10px auto;
+ 
 }
 
 .btn {
@@ -268,6 +290,8 @@ img {
   flex-wrap: wrap;
 }
 
+
+
 .contact-details {
   font-size: 2.4rem;
   background: var(--main-red);
@@ -282,6 +306,8 @@ img {
   background: #cc3a00;
   color: white;
 }
+
+
 
 footer {
   font-weight: 300;
